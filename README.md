@@ -11,4 +11,4 @@ Then we enter the <b>mystical</b> pregame vortex... try not to be mesmerized for
 <br>
 Game begins, enemies('e'), fly forward, you have to dodge em with wasd.<br>
 if you dont reach the top, or enemies reach the bottom, game over and once again....:<br>
-we enter into the mystical pregame vortex
+we enter into the <b>mystical pregame vortex</b>
