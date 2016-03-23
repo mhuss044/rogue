@@ -203,7 +203,12 @@ def main(stdscr):
 						x = int(titleScreen.width/2 + r*cos(radians(ang)))
 						y = int(titleScreen.height/2 + r*sin(radians(ang)))
 						if titleScreen.winObj.enclose(y, x):	# check that provided coords are in window, so no error`
-							titleScreen.winObj.addch(y, x, ord('@'), curses.color_pair(var))
+							try:
+								titleScreen.winObj.addch(y, x, ord('@'), curses.color_pair(var))
+							except:
+								pass
+		
+
 					if var < 7:
 						var += 1
 					else:
